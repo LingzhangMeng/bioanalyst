@@ -1,0 +1,4 @@
+finding_id,claim,evidence_type,dataset_s,statistic,n,grade,verb_used,contradicting_evidence,limitation,next_test,figure_table
+F01,"X expression was higher in disease kidney than control","bulk RNA-seq DE","GSE000000",log2FC=1.8 (1.4-2.2) FDR=3e-5,8 vs 6,E1,associated with,"none retrieved",single centre; no protein data,immunoblot in an independent cohort,Fig1B/TableS2
+F02,"The F01 association replicated in an independent cohort","bulk RNA-seq DE (validation)","GSE111111",log2FC=1.2 P=0.004,12 vs 12,E2,replicated in,"GSE222222 shows no change (ns)",different platform,harmonise across three cohorts,Fig3A
+F03,"Ligand-receptor pairs for A-B were enriched between neutrophils and podocytes","cell-cell communication inference","GSE333333",P=0.002 permutation; 4/6 donors,E1,inferred candidate signalling,"no perturbation data",transcriptome-only inference; no spatial data,spatial co-localisation + blocking experiment,Fig4C

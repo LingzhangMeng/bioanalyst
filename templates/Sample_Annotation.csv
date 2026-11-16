@@ -1,0 +1,5 @@
+sample_id,repository_id,patient_id,group,group_source,disease_status,treatment_status,timepoint,tissue,cell_type,technology,age,sex,batch,platform,library_prep,biological_replicate_id,technical_replicate_id,ambiguity_flag,ambiguity_note,quality_flag
+S01,GSM000001,P01,control,metadata+publication+supplement,healthy,untreated,,kidney,,bulk RNA-seq,41,M,B1,NovaSeq 6000,polyA,P01,,0,,pass
+S02,GSM000002,P02,control,metadata+publication+supplement,healthy,untreated,,kidney,,bulk RNA-seq,55,F,B1,NovaSeq 6000,polyA,P02,,0,,pass
+S03,GSM000003,P03,disease,metadata+publication+supplement,lupus nephritis,untreated,,kidney,,bulk RNA-seq,33,F,B2,NovaSeq 6000,polyA,P03,,0,,pass
+S04,GSM000004,P04,disease,supplement (metadata disagrees),lupus nephritis,treated,,kidney,,bulk RNA-seq,29,F,B2,NovaSeq 6000,polyA,P04,,1,"GEO says control; S1 table says severe LN; clustered with disease",pass

@@ -1,0 +1,24 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# Analysis outputs must never live inside the skill repository.
+# They belong to the *project* a user scaffolds, not to the skill itself:
+Environment/env_*.txt
+Logs/*.log
+04_Processed_Data/
+05_QC/
+06_Analysis/
